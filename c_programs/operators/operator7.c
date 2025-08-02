@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-	int n,i,leftshift,rightshift;
+	int n,i,rotateleftshift,rotaterightshift;
 	printf("enter a number:");
 	scanf("%d",&n);
 	printf("enter the shift count(i)");
 	scanf("%d",&i);
-	leftshift=n<<i;
-	rightshift=n>>i;
-	printf("leftshift:%d\n",leftshift);
-	printf("rightshift:%d\n",rightshift);
+	rotateleftshift=(n<<i)|(n>>(32-i))&0xFFFFFFFF;
+	rotaterightshift=(n>>i)|(n<<(32-i))&0xFFFFFFFF;
+	printf("leftshift:%d\n",rotateleftshift);
+	printf("rightshift:%d\n",rotaterightshift);
 }
 
