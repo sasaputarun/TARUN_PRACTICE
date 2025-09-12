@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-	int decimal=0,n,remainder,base=1;
-	long long binary;
+	int decimal=0,remainder,base=1;
+	long long n;
 	printf("enter a binary number");
 	scanf("%lld",&n);
 	while(n>0)
