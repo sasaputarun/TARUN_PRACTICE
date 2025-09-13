@@ -17,7 +17,14 @@ int main()
 	}
 	for(j=i-1;j>=0;j--)
 	{
+		if(hexa[j]<10)
+		{
 		printf("%d",hexa[j]);
+		}
+		else
+		{
+			printf("%c",hexa[j]-10+'A');
+		}
 	}
 	printf("\n");
 	return 0;
