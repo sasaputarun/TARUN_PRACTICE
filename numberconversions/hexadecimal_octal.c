@@ -39,8 +39,8 @@ int main()
 	}
 	while(decimal>0)
 	{
-		octal[j]=decimal%10;
-		decimal=decimal/10;
+		octal[j]=decimal%8;
+		decimal=decimal/8;
 		j++;
 	}
 	printf("octal\n");
