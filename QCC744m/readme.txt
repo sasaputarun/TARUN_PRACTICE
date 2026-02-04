@@ -7,4 +7,10 @@ date :31/01/26
 date: 02/01/26
 	today i had worked on oled module,i displayed temperature and humidity on oled module usinng dht11 sensor with qcc744m.
 date:03/01/26
-	today i had transferred data(DHT11+AQI+RTC) over uart and displayed on minicom using qcc744m board. 
+	today i had transferred data(DHT11+AQI+RTC) over uart and displayed on minicom using qcc744m board.
+date:04/02/26
+	today i had worked on board to board communication over SPI 
+	
+	SENSORS->BOARD(master)->SPI->BOARD(master)->PC(minicom)
+
+	i had used (DHT11,AQI,RTC) TO  transfer data(temperature,humidity,air quality and time ) from board to board over 	spi is successfully transmitted.
