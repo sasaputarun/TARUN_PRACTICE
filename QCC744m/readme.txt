@@ -14,3 +14,7 @@ date:04/02/26
 	SENSORS->BOARD(master)->SPI->BOARD(master)->PC(minicom)
 
 	i had used (DHT11,AQI,RTC) TO  transfer data(temperature,humidity,air quality and time ) from board to board over 	spi is successfully transmitted.
+date:05/02/26
+	today i had read datasheet and reference manual of qcc744m board for tried to learn baremetal coding 
+date:06/02/26
+	today i had practiced arrays sums ,and worked on baremetal coding for LED blinking
